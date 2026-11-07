@@ -1,0 +1,28 @@
+{
+  "name": "community-signals-asana",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "tsx scripts/setup-asana.ts",
+    "try:task": "tsx scripts/create-test-task.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Turn developer community signals into triaged Asana tasks",
+  "type": "module",
+  "private": "true",
+  "dependencies": {
+    "asana": "^3.4.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "engines": {
+    "node": ">=20.12"
+  }
+}
